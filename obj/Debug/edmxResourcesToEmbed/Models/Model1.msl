@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ApplicationModelStoreContainer" CdmEntityContainer="ApplicationEntities">
+    <EntitySetMapping Name="W4">
+      <EntityTypeMapping TypeName="ApplicationModel.W4">
+        <MappingFragment StoreEntitySet="W4">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Applicant_ID" ColumnName="Applicant_ID" />
+          <ScalarProperty Name="Marital_Status" ColumnName="Marital_Status" />
+          <ScalarProperty Name="Last_Name_Differs" ColumnName="Last_Name_Differs" />
+          <ScalarProperty Name="Number_Of_Allowances" ColumnName="Number_Of_Allowances" />
+          <ScalarProperty Name="Additional_Amount" ColumnName="Additional_Amount" />
+          <ScalarProperty Name="Exempt" ColumnName="Exempt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
